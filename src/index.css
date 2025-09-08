@@ -154,6 +154,17 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
 }
 
+.block-container .btn-blue-yellow {
+  background: linear-gradient(135deg, #21299b -20%, #cbd35d 120%);
+}
+.block-container .btn-blue-green {
+  background: linear-gradient(135deg, #7980eb -20%, #24d436 120%);
+}
+.block-container .btn-blue-quick {
+  background: linear-gradient(135deg, #34d4e9 -20%, #df32da 120%);
+}
+
+
 .block-container .btn-back-yellow {
   background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
 }
