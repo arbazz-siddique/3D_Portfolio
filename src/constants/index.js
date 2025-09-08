@@ -20,7 +20,8 @@ import {
   youtubeCloneIcon,
   coffeeShopIcon,
   portfolioIcon,
-  placeholder
+  placeholder,
+  ai_interview
 
 
 } from "../assets/icons";
@@ -135,13 +136,31 @@ export const socialLinks = [
 ];
 
 export const projects = [
+
    {
-  iconUrl: placeholder,
+  iconUrl: ai_interview,
   theme: "btn-back-green",
   name: "AI Mock Interview Platform",
   description:
     "AI-Powered Mock Interview Platform – Developed and deployed a platform with AI-driven interview question generation, automated feedback, and collaborative features, using Next.js, Firebase , Vercel, Gemini AI, and Vapi AI. ",
+  link: "https://ai-mock-interviews-sigma-one.vercel.app/sign-in",
+},
+
+   {
+  iconUrl: placeholder,
+  theme: "btn-yellow-green",
+  name: "AI Trip Planner",
+  description:
+    "Developed an AI-powered trip planning application that generates personalized travel itineraries using Next.js, React, TailwindCSS and AI APIs. Implemented real-time recommendations, interactive maps, and responsive design for an intuitive and engaging user experience. ",
   link: "https://ai-trip-planner-eta-blue.vercel.app/",
+},
+ {
+  iconUrl: ai_interview,
+  theme: "btn-back-green",
+  name: "QuickAI Hub Of Ai.",
+  description:
+    "Developed a multi-feature AI platform with tools for article writing, blog title generation, image editing, and resume review. Implemented Clerk for auth & billing, Cloudinary for media, and Neon PostgreSQL for scalable data management ",
+  link: "https://ai-toolkit-hub.vercel.app/",
 },
 
   {

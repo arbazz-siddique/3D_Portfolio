@@ -23,6 +23,7 @@ import coffeeShopIcon from './coffeeShopIcon.jpg'
 import portfolioIcon from './portfolioIcon.png'
 import youtubeCloneIcon from './youtubeCloneIcon.png'
 import placeholder from "./placeholder.jpg"
+import ai_interview from "./ai_interview.jpg"
 
 export {
     chessIcon,
@@ -50,4 +51,5 @@ export {
     soundon,
     soundoff,
     placeholder,
+    ai_interview
 }
